@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My JavaScript calculator</title>
+
+</head>
+<body>
+    <form name="myCalc" method="" action="">
+    <table border="3">
+        <tr> 
+        <td> <input type="text" size="16" name="input"></td>
+        </tr><br><br>
+
+        <tr>
+            <td>
+                <input type="button" value="1" size="4" onclick="myCalc.input.value +='1'">
+                 <input type="button" value="2" size="4" onclick="myCalc.input.value +='2'">
+                 <input type="button" value="3" size="4" onclick="myCalc.input.value +='3'">
+                 <input type="button" value="/" size="4" onclick="myCalc.input.value +='/'">
+    <br>
+                <input type="button" value="4" onclick="myCalc.input.value +='4'">
+                <input type="button" value="5" onclick="myCalc.input.value +='5'">
+                <input type="button" value="6" onclick="myCalc.input.value +='6'">
+                <input type="button" value="*" onclick="myCalc.input.value +='*'">
+    <br>
+                <input type="button" value="7" onclick="myCalc.input.value +='7'">
+                <input type="button" value="8" onclick="myCalc.input.value +='8'">
+                <input type="button" value="9" onclick="myCalc.input.value +='9'">
+                <input type="button" value="-" onclick="myCalc.input.value +='-'">
+    <br>
+
+                <input type="button" value="C" onclick="myCalc.input.value =''">
+                <input type="button" value="0" onclick="myCalc.input.value +='0'">
+                <input type="button" value="+" onclick="myCalc.input.value +='+'">
+                <input type="button" value="=" onclick="myCalc.input.value =eval(myCalc.input.value)">
+    </td>      
+        </tr>
+    </table>
+  
+</body>
+</html>
